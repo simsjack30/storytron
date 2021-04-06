@@ -6,6 +6,15 @@ from character import make_character
 import discord
 from dotenv import load_dotenv
 
+resp = """
+{}
+Name: {}
+
+{}
+{}
+{}
+"""
+
 if __name__ == "__main__":
     load_dotenv()
     TOKEN = os.getenv("DISCORD_TOKEN")
@@ -17,17 +26,9 @@ if __name__ == "__main__":
 
     @client.event
     async def on_message(message):
-        name, image, traits = make_character()
-        response = """
-        {}
-        Name: {}
-
-        {}
-        {}
-        {}
-        """.format(
-            image, name, traits[0], traits[1], traits[2]
-        )
-        await message.channel.send(response)
+        if " ".join(message.content.split()[1:]).lower() == "make character":
+            name, image, traits = make_character()
+            response = resp.format(image, name, traits[0], traits[1], traits[2])
+            await message.channel.send(response)
 
     client.run(TOKEN)
