@@ -3,7 +3,12 @@ Makes a mean {}
     French toast
     Omlette 
     Margarita 
-Has been to Europe
+Has been to {}
+    Ecuador
+    Europe
+    Kenya
+    Mylasia
+    Malta
 Speaks a little bit of French 
 Has a {} friend
     Black
@@ -17,7 +22,7 @@ Has good taste in {}
     Appliances
     Beverages
     Vintage cars
-Has matched with 3 people on tender
+Has matched with 3 people on tinder
 Went to school with {}
     The Weeknd
     Ellen Degeneres
@@ -31,3 +36,35 @@ has a guest bedroom
 usually carries {}
     an abacus
     spare gum
+    a spare toothbrush
+Has a class D trucker license
+Has a friend who knows {}
+    Keith Urban
+    Reggie Bush
+    the lead singer from Tame Impala
+    Gordon Ramsay
+    one of Obama's daughters
+    a guy
+Owns a fondue pot
+Makes their own pasta
+Donated a kidney
+Has type {} blood
+    O-
+    AB+
+Pitcher of their rec league softball team
+Has a detailed knowledge of {}
+    early Central American populations
+    the fall of Rome
+    blackholes
+    YouTube's recommended video algorithm
+    pre-WW2 European borders
+    the FDIC
+    Wayne Gretzky's hockey career
+Won {}
+    a golden globe
+    an oscar for best supporting actor
+    second place in a U-12 5K
+    a contest where you guess the number of jelly beans in a jar
+    a bronze medal in the 1998 Olympics in table tennis
+    tickets to a Rascal Flatts concert
+    a years supply of Pepsi
